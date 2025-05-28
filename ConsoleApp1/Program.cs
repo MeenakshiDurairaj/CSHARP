@@ -13,6 +13,13 @@
             Static_Constructor staticConstructor = new Static_Constructor();
             Static_Constructor staticConstructor1 = new Static_Constructor();
 
+            Console.WriteLine("================================================================================================= \n\n");
+            Abstractclass abstractClass = new DerivedClass();
+            abstractClass.AbstractMethod();
+            abstractClass.NonAbstractMethod();
+            Console.WriteLine("Abstract Property Value: " + abstractClass.AbstractProperty);
+            Console.WriteLine("Field Value: " + abstractClass.field);
+
 
 
 
